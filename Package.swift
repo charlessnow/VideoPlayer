@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "VideoPlayer",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "VideoPlayer",
@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/wxxsw/GSPlayer.git", from: "0.2.27"),
+        .package(url: "https://github.com/wxxsw/GSPlayer.git", from: "0.2.28"),
     ],
     targets: [
         .target(
